@@ -1,5 +1,5 @@
 const { Model } = require('objection')
-const knex = require('../config/db')
+const knex = require('../Purpleplumassignment/db')
 Model.knex(knex)
 
 class Employees extends Model{
