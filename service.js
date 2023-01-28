@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt');
-const Employees = require('dbModel');
+const Employees = require('../Purpleplumassignment/dbModel');
 
 module.exports = class EmployeesService {
     async create(details) {
