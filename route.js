@@ -1,7 +1,8 @@
 var express = require('express');
 const router = express.Router();
 
-const EmployeesService = require('../service/service');
+const EmployeesService = require('../Purpleplumassignment/service')
+
 const service = new EmployeesService();
 const { generateAccessToken, authenticateToken } = require('../auth/jwt');
 router.get('/homepage', (req, res) => {
