@@ -1,4 +1,4 @@
-# Nodejs Crud-with-Objection-ORM
+# Nodejs Employee Crud-with-Objection-ORM //Purpleplum
 
 In this simple practice project, I have learn about objection-ORM and migration
 
