@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt');
-const Employees = require('../models/dbModel');
+const Employees = require('dbModel');
 
 module.exports = class EmployeesService {
     async create(details) {
